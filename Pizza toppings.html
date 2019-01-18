@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Dan's Pizza Toppings Application</h2>
+
+<script>
+var pizzas = ["Deluxe(DX)", "Ham and Pineapple(HI)", "Hot & Spicy(HS)", "Tandori Hot(TH)", "Meatilicous(MO)", "Pepperoni Passion(PP)", "Vegeterian Supreme(VS)", "Mighty Meaty(MM)", "Texas BBQ(BQ)", "The Sizzler(WW)", "American Hot(AH)", "Chicken Feast(CF)", "Veg a Roma(VR)", "Meat Lover(ML)", "Meatzza Pizza(MZ)", "Farmhouse(FM)", "MIlano(IM)", "Ardente(IA)", "Sicilia(IS)", "Roma(IR)", "Verona(IV)", "Mexican Fiesta(ME)"];
+var toppings =  pizzatop = ["P, S, O, G, M", "H, I", "O, G, B, J", "O, G, M, D, J", "P, H, S, ~K, ~W", "+P, +C", "O, G, M, N, F", "P, H, S, O, M, B", "Qs, O, G, K, W", "Zs, P, O, D, J, *", "P, O, J", "M, N, W", "Zs, O, G, M, *", "P, H, B, K", "P, S, H, B", "H, O, M", "Vs, Pc", "Sv, Pp, J", "W, Cj, Pp, O", "Co, Pp, O", "Pc, W", "Mw, O, G, Sk"];
+while (1==1){
+	var randomNumber = Math.floor(Math.random() * (pizzas.length));
+	
+	var answer = prompt("What are the toppings on "+ pizzas[randomNumber])
+	alert("Your toppings: " + answer + "Correct answer: "+ toppings[randomNumber])
+}
+
+</script> 
+
+</body>
+</html> 
